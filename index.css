@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: #111;
+}
+.cards{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.card img{
+    object-fit: contain;
+    max-width: 40%;
+}
+.cards .card{
+    background-color: #f8f7f0;
+    margin: 0% 20px;
+    padding: 10px;
+    transition: transform 420ms;
+}
+.cards .card p{
+    padding: 10px; ;
+}
+.cards .card:hover{
+    transform: scale(1.09);
+    background-color: rgb(255, 255, 255);
+    color: rgb(103, 105, 184);
+}
